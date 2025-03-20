@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraternité Pasquale Paoli</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        .section img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fraternité Pasquale Paoli</h1>
+        <p>Une loge maçonnique de partage, d'entraide et de tradition</p>
+    </header>
+
+    <nav>
+        <a href="#paoli">Pasquale Paoli</a>
+        <a href="#loge">La Loge</a>
+        <a href="#godf">Le GODF</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="section" id="paoli">
+        <h2>Pasquale Paoli</h2>
+        <p>Pasquale Paoli était un homme d'État, un militaire et un leader emblématique de la Corse. Né en 1725, il a été un des fondateurs de la République de Corse, un patriote déterminé à défendre l'indépendance de sa patrie. Il est également reconnu pour sa vision progressiste et sa philosophie de la liberté et de l'égalité.</p>
+        <p>Son héritage est celui d'un défenseur des idéaux républicains et de l'honneur de la Corse. Il incarne des valeurs de fraternité, d'intégrité et de justice qui résonnent encore aujourd'hui au sein de notre loge maçonnique.</p>
+
+        <!-- Ajout de l'image de Pasquale Paoli -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Pasquale_Paoli.jpg" alt="Pasquale Paoli">
+    </div>
+
+    <div class="section" id="loge">
+        <h2>La Loge</h2>
+        <p>La Fraternité Pasquale Paoli est une loge maçonnique dédiée à l'étude des principes de la liberté, de l'égalité et de la fraternité. Nous nous réunissons régulièrement pour promouvoir la réflexion, l'entraide et l'évolution personnelle. Notre loge est ouverte à ceux qui partagent notre engagement envers les valeurs humaines et spirituelles.</p>
+        <p>Les membres de notre loge suivent les enseignements traditionnels de la maçonnerie tout en cherchant à les adapter à notre époque, en vue de favoriser l'harmonie sociale et l'amélioration de l'individu au sein de la communauté.</p>
+    </div>
+
+    <div class="section" id="godf">
+        <h2>Le Grand Orient de France (GODF)</h2>
+        <p>Le Grand Orient de France est l'une des plus anciennes et prestigieuses obédiences maçonniques en France. Fondé en 1733, le GODF réunit des francs-maçons autour de valeurs communes : la liberté de pensée, l'engagement pour l'égalité, et la défense des droits de l'homme.</p>
+        <p>En tant que membre du GODF, notre loge partage ces principes et participe activement aux activités maçonniques nationales et internationales. Le GODF est une institution respectée, qui œuvre pour la paix, la tolérance et la solidarité entre les peuples.</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contactez-nous pour postuler</h2>
+        <p>Si vous souhaitez rejoindre notre loge, n'hésitez pas à nous contacter pour plus d'informations ou pour postuler. Nous serions heureux de discuter avec vous de votre parcours et de vos motivations.</p>
+
+        <!-- Formulaire de contact avec l'email mis à jour -->
+        <form class="contact-form" method="POST" action="mailto:fraternite.pasquale.paoli@protonmail.com">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer>
+        <p style="text-align: center; padding: 20px; background-color: #333; color: white;">Fraternité Pasquale Paoli &copy; 2025</p>
+    </footer>
+
+</body>
+</html>
